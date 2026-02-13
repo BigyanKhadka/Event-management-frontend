@@ -16,7 +16,6 @@ import StudentDashboard from '../pages/student/Dashboard';
 import StudentProfile from '../pages/student/Profile';
 import MyBookings from '../pages/student/MyBookings';
 import Notifications from '../pages/student/Notifications';
-import StudentCalendar from '../pages/student/Calendar';
 
 import AdminDashboard from '../pages/admin/AdminDashboard';
 import AdminEvents from '../pages/admin/AdminEvents';
@@ -66,14 +65,6 @@ const router = createBrowserRouter([
           </ProtectedRoute>
         ),
       },
-      {
-  path: 'student/calendar',
-  element: (
-    <ProtectedRoute>
-      <StudentCalendar />
-    </ProtectedRoute>
-  ),
-},
       // Admin routes
       {
         path: 'admin/dashboard',

@@ -16,8 +16,6 @@ export const ROUTES = {
   STUDENT_PROFILE: '/student/profile',
   STUDENT_MY_BOOKINGS: '/student/my-bookings',
   STUDENT_NOTIFICATIONS: '/student/notifications',
-  STUDENT_CALENDAR: '/student/calendar', // <-- add this
-
   // Admin routes (when logged in as admin)
   ADMIN_DASHBOARD: '/admin/dashboard',
   ADMIN_EVENTS: '/admin/events',

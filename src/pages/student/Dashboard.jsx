@@ -8,7 +8,6 @@ const QUICK_LINKS = [
   { to: ROUTES.EVENTS, title: 'Browse events', description: 'Seminars, workshops, festivals & club activities', icon: '📅' },
   { to: ROUTES.STUDENT_MY_BOOKINGS, title: 'My bookings', description: 'Your registered events and tickets', icon: '🎫' },
   { to: ROUTES.STUDENT_NOTIFICATIONS, title: 'Notifications', description: 'Reminders and updates', icon: '🔔' },
-  { to: ROUTES.STUDENT_CALENDAR, title: 'Calendar', description: 'See your events on a calendar', icon: '🗓️' }, // new
 ];
 
 export default function StudentDashboard() {

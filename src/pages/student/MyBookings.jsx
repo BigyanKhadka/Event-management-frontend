@@ -36,12 +36,7 @@ const STATIC_BOOKINGS = [
 ];
 
 function formatDate(dateStr) {
-  if (!dateStr) return '—';
-  // Use toLocaleString so both dateStyle and timeStyle are supported
-  return new Date(dateStr).toLocaleString('en-IN', {
-    dateStyle: 'medium',
-    timeStyle: 'short',
-  });
+  return dateStr ? new Date(dateStr).toLocaleDateString('en-IN', { dateStyle: 'medium', timeStyle: 'short' }) : '—';
 }
 
 export default function MyBookings() {
