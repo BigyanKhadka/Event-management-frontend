@@ -14,11 +14,12 @@ export const ROUTES = {
   // Student routes (when logged in as student)
   STUDENT_DASHBOARD: '/student/dashboard',
   STUDENT_PROFILE: '/student/profile',
-  STUDENT_MY_BOOKINGS: '/student/my-bookings',
+  STUDENT_MY_REGISTRATIONS: '/student/my-registrations',
   STUDENT_NOTIFICATIONS: '/student/notifications',
   // Admin routes (when logged in as admin)
   ADMIN_DASHBOARD: '/admin/dashboard',
   ADMIN_EVENTS: '/admin/events',
+  ADMIN_EVENTS_CREATE: '/admin/events/new',
   ADMIN_USERS: '/admin/users',
   // Aliases for menu/redirects
   ADMIN: '/admin/dashboard',
