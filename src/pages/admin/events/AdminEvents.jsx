@@ -218,13 +218,13 @@ export default function AdminEvents() {
                         >
                           Edit
                         </Link>
-                        <button
+                        {/* <button
                           type="button"
                           onClick={() => deleteEvent(event._id)}
                           className="text-[10px] font-black text-red-300 hover:text-red-600 uppercase tracking-widest transition-colors"
                         >
                           Delete
-                        </button>
+                        </button> */}
                       </div>
                     </td>
                   </tr>
